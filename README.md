@@ -4,7 +4,7 @@ demo-project
 node.js express project for GCE start script demo use.
 
 
-! Start Script (demo-git-pull.sh)
+# Start Script (demo-git-pull.sh)
 
 ```
 #!/bin/bash
@@ -24,7 +24,7 @@ cd /opt/web && /opt/node/bin/npm install
 /opt/node/bin/forever start /opt/web/app.js
 ```
 
-! Start a GCE instance using the script (start.sh)
+# Start a GCE instance using the script (start.sh)
 
 ```
 #!/bin/bash
@@ -53,7 +53,7 @@ else
 fi
 ```
 
-! Execute
+# Execute
 
 ```
 $ ./start.sh instance-1 demo-git-pull.sh
